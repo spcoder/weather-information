@@ -1,0 +1,32 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "less/weather-icons.min.less";
+
+.WeatherInformation {
+  font-family: 'Arial';
+  padding: 20px;
+  .RightNow {
+    & > h1 {
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+    }
+    & > .body {
+      overflow: auto;
+      & > i {
+        font-size: 70px;
+        float: left;
+      }
+      & > h1 {
+        float: right;
+        margin: 0;
+        padding-left: 10px;
+        font-size: 50px;
+        line-height: 70px;
+      }
+    }
+  }
+}

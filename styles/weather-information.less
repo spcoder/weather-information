@@ -6,15 +6,21 @@
 @import "less/weather-icons.min.less";
 
 .WeatherInformation {
+  font-size: 14px;
+  letter-spacing: 1px;
   font-family: 'Arial';
   padding: 20px;
+
+  h1 {
+    margin: 40px 0 0 0;
+    padding: 0;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
 
   .RightNow {
     & > h1 {
       margin: 0;
-      padding: 0;
-      line-height: 1em;
-      text-transform: uppercase;
     }
     & > main {
       overflow: auto;
@@ -30,10 +36,6 @@
         font-size: 50px;
         line-height: 85px;
       }
-    }
-    & > footer {
-      font-size: 14px;
-      letter-spacing: 1px;
     }
   }
 

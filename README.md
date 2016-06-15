@@ -1,3 +1,5 @@
 # weather-information package
 
-Weather information for your editor like what!
+Displays a nice summary of the weather in your editor.
+
+This package is heavily inspired by [Dark Sky](http://forecast.io), and uses it's API to pull weather information.

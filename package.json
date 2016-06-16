@@ -3,9 +3,8 @@
   "description": "Weather information for Atom",
   "repository": "https://github.com/spcoder/weather-information",
   "main": "./lib/weather-information",
-  "version": "0.0.0",
-  "keywords": [
-  ],
+  "version": "0.1.0",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "weather-information:toggle"
   },

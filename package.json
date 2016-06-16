@@ -2,7 +2,7 @@
   "name": "weather-information",
   "main": "./lib/weather-information",
   "version": "0.0.0",
-  "description": "Weather information for your editor like what!",
+  "description": "Weather information for Atom",
   "keywords": [
   ],
   "activationCommands": {

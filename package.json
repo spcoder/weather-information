@@ -1,14 +1,14 @@
 {
   "name": "weather-information",
+  "description": "Weather information for Atom",
+  "repository": "https://github.com/spcoder/weather-information",
   "main": "./lib/weather-information",
   "version": "0.0.0",
-  "description": "Weather information for Atom",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "weather-information:toggle"
   },
-  "repository": "https://github.com/spcoder/weather-information",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

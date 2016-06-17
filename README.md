@@ -2,7 +2,7 @@
 
 Displays a nice summary of the weather in your editor.
 
-![weather-information](https://github.com/spcoder/weather-information/blob/master/resources/example.png)
+![weather-information](https://raw.githubusercontent.com/spcoder/weather-information/master/resources/example.png)
 
 ## Credits
 
